@@ -15,6 +15,7 @@
 		0405FBDC1D1116C4008EE2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405FBDA1D1116C4008EE2B8 /* LaunchScreen.storyboard */; };
 		0405FBE71D1116C4008EE2B8 /* wexinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405FBE61D1116C4008EE2B8 /* wexinTests.m */; };
 		0405FBF21D1116C4008EE2B8 /* wexinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405FBF11D1116C4008EE2B8 /* wexinUITests.m */; };
+		0405FC011D111735008EE2B8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405FC001D111735008EE2B8 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0405FBED1D1116C4008EE2B8 /* wexinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wexinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0405FBF11D1116C4008EE2B8 /* wexinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wexinUITests.m; sourceTree = "<group>"; };
 		0405FBF31D1116C4008EE2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0405FBFF1D111735008EE2B8 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0405FC001D111735008EE2B8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		0405FBCB1D1116C4008EE2B8 /* wexin */ = {
 			isa = PBXGroup;
 			children = (
+				0405FBFF1D111735008EE2B8 /* Person.h */,
+				0405FC001D111735008EE2B8 /* Person.m */,
 				0405FBCF1D1116C4008EE2B8 /* AppDelegate.h */,
 				0405FBD01D1116C4008EE2B8 /* AppDelegate.m */,
 				0405FBD21D1116C4008EE2B8 /* ViewController.h */,
@@ -275,6 +280,7 @@
 			files = (
 				0405FBD41D1116C4008EE2B8 /* ViewController.m in Sources */,
 				0405FBD11D1116C4008EE2B8 /* AppDelegate.m in Sources */,
+				0405FC011D111735008EE2B8 /* Person.m in Sources */,
 				0405FBCE1D1116C4008EE2B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +505,7 @@
 				0405FBF81D1116C4008EE2B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0405FBF91D1116C4008EE2B8 /* Build configuration list for PBXNativeTarget "wexinTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				0405FBFB1D1116C4008EE2B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0405FBFC1D1116C4008EE2B8 /* Build configuration list for PBXNativeTarget "wexinUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				0405FBFE1D1116C4008EE2B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
